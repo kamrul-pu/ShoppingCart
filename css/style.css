@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(218, 205, 205);
+    
+}
+h2{
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(143, 243, 243);
+    margin: 0 auto;
+}
+.container ol{
+    padding: 20px;
+    margin: 10px;
+}
+.container ol li{
+    padding: 10px;
+    font-size: 20px;
+}
+.btn, .btnR{
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+.cart{
+    border: 2px solid green;
+}
+
+.btnR{
+    text-decoration: none;
+    background-color: red;
+}
+ul{
+    padding: 20px;
+    list-style-type: decimal;
+}
+ul li{
+    padding: 20px;
+}
