@@ -34,6 +34,7 @@ h2{
 }
 .cart{
     border: 2px solid green;
+    text-align: center;
 }
 
 .btnR{
@@ -46,4 +47,5 @@ ul{
 }
 ul li{
     padding: 20px;
+    text-align: center;
 }
