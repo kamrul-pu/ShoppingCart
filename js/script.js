@@ -16,9 +16,9 @@ function addItem(e){
         link.appendChild(document.createTextNode('Remove'));
          li.appendChild(document.createTextNode(product));
          li.appendChild(link);
-         console.log(li);
+        //  console.log(li);
          items.appendChild(li);
-         console.log(e.target.parentElement.firstChild.nextSibling.textContent);
+        //  console.log(e.target.parentElement.firstChild.nextSibling.textContent);
      }
     // console.log(e.target.className);
 }
@@ -27,7 +27,7 @@ function removeItem(e){
     if(e.target.hasAttribute('href')){
         let ele=e.target.parentElement;
         ele.remove();
-        console.log(ele);
+        // console.log(ele);
     }
     // console.log(e.target);
 }
